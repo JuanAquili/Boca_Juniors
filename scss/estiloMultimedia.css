@@ -1,0 +1,739 @@
+@media only screen and (min-width: 992px) {
+  @font-face {
+    font-family: CollegiateBlackFLF;
+    src: url(../CollegiateBlackFLF.ttf);
+  }
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    background-image: url(../imagenes/fondoazul.jpg);
+    margin: 0px;
+  }
+  .linea {
+    display: none;
+  }
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .header__contenido {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+        align-self: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .header__contenido p {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-row-align: center;
+        align-self: center;
+    font-family: CollegiateBlackFLF;
+    color: #fccf03;
+    font-size: 30px;
+    margin-left: 15px;
+  }
+  .header__contenido img {
+    height: 70px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .header__contenido img:hover {
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+  .header__sponsor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+        align-self: center;
+    margin-left: 10px;
+  }
+  .header__sponsor img {
+    height: 45px;
+    float: end;
+  }
+  .navResponsive {
+    display: none;
+  }
+  .nave {
+    width: 100%;
+    background-color: #fccf03;
+    height: 40px;
+  }
+  .nave ul {
+    list-style-type: none;
+  }
+  .nave > ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .nave__ul1 {
+    height: 40px;
+  }
+  .nave__ul1 > li {
+    display: inline-block;
+    position: relative;
+  }
+  .nave__ul1 > li > a {
+    padding-top: 5px;
+    font-size: 25px;
+    text-align: center;
+    display: block;
+    font-family: 'Staatliches', cursive;
+    text-decoration: none;
+    color: black;
+  }
+  .nave__ul1 > li > a:hover {
+    color: blue;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .nave__ul1 > li li:hover .nave__ul1__ul2 {
+    display: block;
+  }
+  .nave__ul1 li:hover .nave__ul1__ul2 {
+    display: block;
+  }
+  .nave__ul1__ul2 {
+    position: absolute;
+    font-size: 25px;
+    font-family: 'Staatliches', cursive;
+    background-color: #fccf03;
+    display: none;
+  }
+  .nave__ul1__ul2 li a {
+    display: block;
+    padding: 8px 8px;
+    color: white;
+    text-decoration: none;
+    width: 200px;
+  }
+  .nave__ul1__ul2 li a:hover {
+    color: black;
+    -webkit-transition: all 2s;
+    transition: all 2s;
+  }
+  .sectionMul1
+.rdp {
+    font-size: 35px;
+    font-family: CollegiateBlackFLF;
+    color: #fccf03;
+    padding: 20px;
+    text-align: center;
+  }
+  .dm1 {
+    height: 400px;
+    width: 700px;
+  }
+  .dm1 iframe {
+    width: 700px;
+    height: 400px;
+  }
+  .sectionMul2 iframe {
+    width: 300px;
+    height: 150px;
+  }
+  .vdi {
+    font-size: 35px;
+    font-family: CollegiateBlackFLF;
+    color: #fccf03;
+    text-align: center;
+    padding: 20px;
+  }
+  .tm2 {
+    font-family: CollegiateBlackFLF;
+    color: #fccf03;
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+  }
+  .field {
+    background-image: url(../imagenes/FondoAmarillo.png);
+    border: solid 5px black;
+    font-size: 15px;
+    text-align: left;
+    font-family: 'Hammersmith One', sans-serif;
+    margin-bottom: 20px;
+  }
+  .duno {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  fieldset {
+    padding: 10px;
+  }
+  .footerResponsive {
+    display: none;
+  }
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    background-color: #4f4b4b;
+    height: 200px;
+    margin-top: 50px;
+    border-top: solid 3px;
+  }
+  .footer1 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .footer1 img {
+    height: 70px;
+    margin-left: 90px;
+  }
+  .footer1 p {
+    font-size: 20px;
+    font-family: 'Staatliches', cursive;
+    color: black;
+  }
+  .footer2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+        align-self: center;
+    font-family: 'Staatliches', cursive;
+    font-size: 20px;
+  }
+  .footer2 a {
+    text-decoration: none;
+    color: black;
+    margin: 10px 10px;
+  }
+  .footer2 a:hover {
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    color: white;
+  }
+  .footer3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -ms-flex-item-align: center;
+        align-self: center;
+    font-family: 'Staatliches', cursive;
+    font-size: 20px;
+  }
+  .footer3 p {
+    text-align: center;
+  }
+  .footer3 nav {
+    font-size: 25px;
+    text-align: center;
+    word-spacing: 20px;
+  }
+  .footer3 nav a {
+    color: white;
+  }
+  .footer3__titulo i {
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    background-image: url(../imagenes/fondoazul.jpg);
+  }
+  @font-face {
+    font-family: CollegiateBlackFLF;
+    src: url(../CollegiateBlackFLF.ttf);
+  }
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 70px;
+  }
+  .header__contenido {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .header__contenido img {
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 15px;
+  }
+  .header__contenido p {
+    display: none;
+  }
+  .header__sponsor {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-row-align: center;
+        align-self: center;
+    margin-left: 10px;
+  }
+  .header__sponsor img {
+    height: 35px;
+  }
+  .nave {
+    display: none;
+  }
+  .rdp {
+    font-size: 35px;
+    font-family: CollegiateBlackFLF;
+    color: #fccf03;
+    padding: 20px;
+    text-align: center;
+  }
+  .dm1 {
+    height: 400px;
+    width: 700px;
+  }
+  .dm1 iframe {
+    width: 700px;
+    height: 400px;
+  }
+  .sectionMul2 iframe {
+    width: 700px;
+    height: 500px;
+  }
+  .vdi {
+    font-size: 35px;
+    font-family: CollegiateBlackFLF;
+    color: #fccf03;
+    text-align: center;
+    padding: 20px;
+  }
+  .tm2 {
+    font-family: CollegiateBlackFLF;
+    color: #fccf03;
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+  }
+  .field {
+    background-image: url(../imagenes/FondoAmarillo.png);
+    border: solid 5px black;
+    font-size: 15px;
+    text-align: left;
+    font-family: 'Hammersmith One', sans-serif;
+    margin-bottom: 20px;
+  }
+  .duno {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  fieldset {
+    padding: 10px;
+  }
+  .footerPC {
+    display: none;
+  }
+  .footerResponsive {
+    background-color: #4f4b4b;
+    margin-top: 20px;
+    border-top: solid 5px black;
+    height: 100%;
+    width: 100%;
+  }
+  .footerResponsive__links ul {
+    display: -ms-grid;
+    display: grid;
+    -ms-flex-line-pack: distribute;
+        align-content: space-around;
+    margin-bottom: 0px;
+    height: 195px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footerResponsive__links ul li {
+    text-decoration: none;
+    list-style-type: none;
+  }
+  .footerResponsive__links ul li a {
+    text-decoration: none;
+    font-family: 'Staatliches', cursive;
+    font-size: 15px;
+    color: black;
+  }
+  .footerResponsive__info {
+    font-family: 'Staatliches', cursive;
+    font-size: 15px;
+    text-align: center;
+  }
+  .footerResponsive__info nav {
+    word-spacing: 10px;
+  }
+  .footerResponsive__info nav a {
+    color: white;
+  }
+  .footerResponsive__info img {
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .footerResponsive__info--mencion {
+    font-family: 'Staatliches', cursive;
+    font-size: 15px;
+    text-align: center;
+  }
+  .footerResponsive__info--mencion i {
+    color: white;
+    font-family: 'Staatliches', cursive;
+    font-size: 15px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    background-image: url(../imagenes/fondoazul.jpg);
+  }
+  @font-face {
+    font-family: CollegiateBlackFLF;
+    src: url(../CollegiateBlackFLF.ttf);
+  }
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 70px;
+  }
+  .header__contenido {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .header__contenido img {
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 15px;
+  }
+  .header__contenido p {
+    display: none;
+  }
+  .header__sponsor {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-row-align: center;
+        align-self: center;
+    margin-left: 10px;
+  }
+  .header__sponsor img {
+    height: 35px;
+  }
+  .nave {
+    display: none;
+  }
+  .rdp {
+    font-size: 35px;
+    font-family: CollegiateBlackFLF;
+    color: #fccf03;
+    padding: 20px;
+    text-align: center;
+  }
+  .dm1 {
+    height: 400px;
+    width: 700px;
+  }
+  .dm1 iframe {
+    width: 540px;
+    height: 300px;
+  }
+  .sectionMul2 iframe {
+    width: 540px;
+    height: 300px;
+  }
+  .vdi {
+    font-size: 35px;
+    font-family: CollegiateBlackFLF;
+    color: #fccf03;
+    text-align: center;
+    padding: 20px;
+  }
+  .tm2 {
+    font-family: CollegiateBlackFLF;
+    color: #fccf03;
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+  }
+  .field {
+    background-image: url(../imagenes/FondoAmarillo.png);
+    border: solid 5px black;
+    font-size: 15px;
+    text-align: left;
+    font-family: 'Hammersmith One', sans-serif;
+    margin-bottom: 20px;
+  }
+  .duno {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  fieldset {
+    padding: 10px;
+  }
+  .footerPC {
+    display: none;
+  }
+  .footerResponsive {
+    background-color: #4f4b4b;
+    margin-top: 20px;
+    border-top: solid 5px black;
+    height: 100%;
+    width: 100%;
+  }
+  .footerResponsive__links ul {
+    display: -ms-grid;
+    display: grid;
+    -ms-flex-line-pack: distribute;
+        align-content: space-around;
+    margin-bottom: 0px;
+    height: 195px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footerResponsive__links ul li {
+    text-decoration: none;
+    list-style-type: none;
+  }
+  .footerResponsive__links ul li a {
+    text-decoration: none;
+    font-family: 'Staatliches', cursive;
+    font-size: 15px;
+    color: black;
+  }
+  .footerResponsive__info {
+    font-family: 'Staatliches', cursive;
+    font-size: 15px;
+    text-align: center;
+  }
+  .footerResponsive__info nav {
+    word-spacing: 10px;
+  }
+  .footerResponsive__info nav a {
+    color: white;
+  }
+  .footerResponsive__info img {
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .footerResponsive__info--mencion {
+    font-family: 'Staatliches', cursive;
+    font-size: 15px;
+    text-align: center;
+  }
+  .footerResponsive__info--mencion i {
+    color: white;
+    font-family: 'Staatliches', cursive;
+    font-size: 15px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    background-image: url(../imagenes/fondoazul.jpg);
+  }
+  @font-face {
+    font-family: CollegiateBlackFLF;
+    src: url(../CollegiateBlackFLF.ttf);
+  }
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 70px;
+  }
+  .header__contenido {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .header__contenido img {
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 15px;
+  }
+  .header__contenido p {
+    display: none;
+  }
+  .header__sponsor {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-row-align: center;
+        align-self: center;
+    margin-left: 10px;
+  }
+  .header__sponsor img {
+    height: 35px;
+  }
+  .nave {
+    display: none;
+  }
+  .rdp {
+    font-size: 35px;
+    font-family: CollegiateBlackFLF;
+    color: #fccf03;
+    padding: 20px;
+    text-align: center;
+  }
+  .ff {
+    height: 250px;
+  }
+  .dm1 {
+    height: 400px;
+    width: 700px;
+  }
+  .dm1 iframe {
+    width: 350px;
+    height: 200px;
+  }
+  .sectionMul2 iframe {
+    width: 350px;
+    height: 200px;
+  }
+  .vdi {
+    font-size: 35px;
+    font-family: CollegiateBlackFLF;
+    color: #fccf03;
+    text-align: center;
+    padding: 20px;
+  }
+  .tm2 {
+    font-family: CollegiateBlackFLF;
+    color: #fccf03;
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+  }
+  .field {
+    background-image: url(../imagenes/FondoAmarillo.png);
+    border: solid 5px black;
+    font-size: 15px;
+    text-align: left;
+    font-family: 'Hammersmith One', sans-serif;
+    margin-bottom: 20px;
+  }
+  .duno {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  fieldset {
+    padding: 10px;
+  }
+  .footerPC {
+    display: none;
+  }
+  .footerResponsive {
+    background-color: #4f4b4b;
+    margin-top: 20px;
+    border-top: solid 5px black;
+    height: 100%;
+    width: 100%;
+  }
+  .footerResponsive__links ul {
+    display: -ms-grid;
+    display: grid;
+    -ms-flex-line-pack: distribute;
+        align-content: space-around;
+    margin-bottom: 0px;
+    height: 195px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footerResponsive__links ul li {
+    text-decoration: none;
+    list-style-type: none;
+  }
+  .footerResponsive__links ul li a {
+    text-decoration: none;
+    font-family: 'Staatliches', cursive;
+    font-size: 15px;
+    color: black;
+  }
+  .footerResponsive__info {
+    font-family: 'Staatliches', cursive;
+    font-size: 15px;
+    text-align: center;
+  }
+  .footerResponsive__info nav {
+    word-spacing: 10px;
+  }
+  .footerResponsive__info nav a {
+    color: white;
+  }
+  .footerResponsive__info img {
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .footerResponsive__info--mencion {
+    font-family: 'Staatliches', cursive;
+    font-size: 15px;
+    text-align: center;
+  }
+  .footerResponsive__info--mencion i {
+    color: white;
+    font-family: 'Staatliches', cursive;
+    font-size: 15px;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=estiloMultimedia.css.map */
